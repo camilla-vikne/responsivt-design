@@ -72,6 +72,11 @@ section {
   object-fit: cover;
   object-position: 100% 10%;
 }
+#third-section {
+  background-image: url(./img/aaron-burden-pLHxwd746JU-unsplash.jpg);
+  background-size: cover;
+  background-position: 100% 20%;
+}
 /* #top-section {
   width: 70svw;
   height: 30svh;
