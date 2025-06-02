@@ -1,0 +1,43 @@
+/* main, section, article, #top-section, #second-section,
+#third-section, #last-section, .top-article,.bottom-article */
+html {
+  font-size: 30px;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  background-color: red;
+  width: 100svw;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+section {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 10px;
+}
+.top-article {
+  width: 3rem;
+}
+input {
+  width: 15ch;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+article {
+  background-color: green;
+  height: 40px;
+  width: 2em;
+}
