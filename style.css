@@ -1,13 +1,13 @@
 /* main, section, article, #top-section, #second-section,
 #third-section, #last-section, .top-article,.bottom-article */
-html {
+/* html {
   font-size: 30px;
-}
+} */
 * {
   margin: 0;
   box-sizing: border-box;
 }
-main {
+/* main {
   background-color: red;
   width: 100svw;
   height: 100svh;
@@ -40,4 +40,36 @@ article {
   background-color: green;
   height: 40px;
   width: 2em;
+} */
+main {
+  background-color: hotpink;
+  min-width: 100svw;
+  min-height: 100svh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+section {
+  background-color: #88bc95;
+  height: 100px;
+  width: 100px;
+}
+#top-section {
+  width: 70svw;
+  height: 30svh;
+}
+#second-section {
+  width: 70vw;
+  max-height: 300px;
+}
+#third-section {
+  min-width: 60svw;
+  min-height: 40svh;
+}
+#third-section .top-article {
+  width: 50%;
+  height: 50%;
+  background-color: black;
 }
