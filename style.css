@@ -53,8 +53,19 @@ main {
 }
 section {
   background-color: #88bc95;
-  height: 100px;
-  width: 100px;
+  width: 80svw;
+  height: 50svh;
+}
+#top-section img {
+  object-fit: contain;
+  width: 50%;
+  display: block;
+}
+#second-section {
+  width: 70svw;
+  height: 50svh;
+}
+#second-section img {
 }
 /* #top-section {
   width: 70svw;
